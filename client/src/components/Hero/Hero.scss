@@ -1,0 +1,42 @@
+@use "../../styles/partials/_variables.scss" as *;
+@import "../../styles/partials/mixins";
+
+.hero-banner {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vw;
+  @include tablet {
+    width: 100vw;
+  }
+}
+
+.spacebar {
+  padding: 0px 30px;
+  height: 20vw;
+  width: 22vw;
+  @include tablet {
+    height: 15vw;
+    width: 17vw;
+    padding: 0px 90px;
+  }
+  @include desktop {
+    padding: 0px 140px;
+  }
+}
+.pinksauce-logo {
+  padding: 0px 25px;
+  height: 20vw;
+  width: 45vw;
+  @include tablet {
+    height: 15vw;
+    width: 40vw;
+    padding: 0px 85px;
+  }
+  @include desktop {
+    padding: 0px 135px;
+  }
+}

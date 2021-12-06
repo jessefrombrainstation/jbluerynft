@@ -1,0 +1,98 @@
+@use "../../styles/partials/_variables.scss" as *;
+@import "../../styles/partials/mixins";
+
+.board {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 105vw;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  font-size: 9pt;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+}
+
+.og-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  width: 80vw;
+  color: white;
+  font-size: 9pt;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+}
+.og {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 30vw;
+  padding-right: 8px;
+  padding-left: 8px;
+  @include tablet {
+    width: 30vw;
+  }
+  @include desktop {
+    width: 30vw;
+  }
+}
+.og-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+}
+.nft-info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  font-size: 9pt;
+  color: white;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+}
+.nft {
+  width: 80vw;
+  @include tablet {
+    width: 80vw;
+  }
+  @include desktop {
+    width: 80vw;
+  }
+}
