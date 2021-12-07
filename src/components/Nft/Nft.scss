@@ -1,0 +1,40 @@
+@use "../../styles/partials/_variables.scss" as *;
+@import "../../styles/partials/mixins";
+
+.nftgalleryone {
+  display: flex;
+  height: 100vw;
+  width: 100vw;
+  margin-top: -222vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 11;
+  @include tablet {
+    margin-top: -221vw;
+  }
+  @include desktop {
+    margin-top: -220vw;
+  }
+}
+.nftinner {
+  display: flex;
+  justify-content: center;
+  height: 100vw;
+  width: 100vw;
+  position: absolute;
+  margin-right: 1.3vw;
+  @include tablet {
+    margin-right: 1.3vw;
+  }
+  @include nft-mod {
+    margin-right: 1.32vw;
+  }
+  @include nft-mod-b {
+    margin-right: 1.5vw;
+  }
+  @include nft-mod-c {
+    margin-right: 0.75vw;
+  }
+}

@@ -2,3 +2,18 @@
   width: 100%;
   margin-bottom: -15px;
 }
+
+.nftcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.closebutton {
+  width: 100vw;
+  height: 280vw;
+  margin-top: -278.5vw;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.421);
+  color: none;
+  border: none;
+}

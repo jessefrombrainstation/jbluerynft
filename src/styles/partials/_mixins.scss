@@ -5,6 +5,21 @@
     @content;
   }
 }
+@mixin nft-mod {
+  @media (min-width: $tablet-nft-module) {
+    @content;
+  }
+}
+@mixin nft-mod-b {
+  @media (min-width: $tablet-nft-module-b) {
+    @content;
+  }
+}
+@mixin nft-mod-c {
+  @media (min-width: $tablet-nft-module-c) {
+    @content;
+  }
+}
 @mixin desktop {
   @media (min-width: $desktop-breakpoint) {
     @content;
