@@ -28,7 +28,9 @@ export default function Board() {
         <br />
         Stay tuned for our first edition launch!
       </p>
-      <img src={NFTs} className="nft" alt="nft" />
+      <a href="https://opensea.io/bundles/first-edition-launch-X4t">
+        <img src={NFTs} className="nft" alt="nft" />
+      </a>
     </div>
   );
 }
