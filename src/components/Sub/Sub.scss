@@ -1,0 +1,39 @@
+@use "../../styles/partials/_variables.scss" as *;
+@import "../../styles/partials/mixins";
+
+.coin {
+  text-align: center;
+  margin-top: -24vw;
+  &__crypto {
+    height: 20vw;
+  }
+}
+
+.sub {
+  text-align: center;
+  margin-top: -20vw;
+
+  &__email {
+    background-color: rgba(246, 223, 51, 0.38);
+    color: wheat;
+    border: none;
+    margin-right: 10px;
+    width: 50vw;
+    height: 3.5vw;
+    font-size: 3vw;
+  }
+  ::placeholder {
+    padding-left: 5px;
+    color: rgba(245, 222, 179, 0.647);
+  }
+
+  &__btn {
+    background-color: rgba(246, 223, 51, 0.38);
+    color: wheat;
+    border: none;
+    margin-left: 10px;
+    width: 12vw;
+    height: 3.5vw;
+    font-size: 3vw;
+  }
+}
