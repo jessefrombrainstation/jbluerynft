@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import spaceground from "./assets/images/spaceground-with-footer.png";
 import "./App.scss";
 import Hero from "./components/Hero/Hero";
-// import Ether from "./components/Eth/Eth";
+import Ether from "./components/Eth/Eth";
 import Nft from "./components/Nft/Nft";
 import Sub from "./components/Sub/Sub";
 import Original from "../src/assets/images/jbluery-ufo-og.png";
@@ -53,7 +53,7 @@ function App() {
         <header className="spaceground"></header>
         <img src={spaceground} className="spaceground" alt="spaceground" />
       </div>
-      {/* <Ether /> */}
+      <Ether />
       {show ? (
         <div className="nftcontainer">
           <button

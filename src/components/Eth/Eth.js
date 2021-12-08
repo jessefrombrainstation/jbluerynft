@@ -72,16 +72,13 @@ class Eth extends Component {
   render() {
     return (
       <div className="eth-status-bar">
-        <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow text-monospace text-white">
+        <nav className="eth-status-bar__nav">
           {this.state.loading ? (
-            <div
-              id="loader"
-              className="nav-item text-nowrap d-none d-sm-none d-sm-block"
-            >
+            <div id="loader" className="eth-status-bar__arrive">
               Crypto arriving...
             </div>
           ) : (
-            <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
+            <li className="eth-status-bar__market">
               <small>CRYPTO MARKET:</small>&nbsp;$
               {this.state.ccGlobalMcap.toLocaleString("fr-CH")}
               &nbsp;
@@ -89,10 +86,10 @@ class Eth extends Component {
           )}
         </nav>
         &nbsp;
-        <div className="container-fluid mt-5 w-50 p-3">
+        <div className="eth-status-bar__content">
           <div className="row">
-            <main role="main" className="col-lg-12 d-flex text-center">
-              <table className="table table-striped table-hover table-fixed table-bordered text-monospace">
+            <main role="main" className="eth-status-bar__table">
+              <table className="eth-status-bar__price">
                 <tbody>
                   {this.state.ccData.map((data, key) => {
                     return (
@@ -102,16 +99,16 @@ class Eth extends Component {
                             src={data.img}
                             width="25"
                             height="25"
-                            className="d-inline-block align-top"
+                            className="eth-status-bar__eth"
                             alt=""
                           />
                         </td>
                         <td>{data.name}</td>
                         <td>${data.quotes.USD.price.toFixed(2)}</td>
-                        <td>
+                        {/* <td>
                           OF $
                           {data.quotes.USD.market_cap.toLocaleString("fr-CH")}
-                        </td>
+                        </td> */}
                       </tr>
                     );
                   })}
