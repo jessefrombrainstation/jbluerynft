@@ -5,7 +5,7 @@ import "../Eth/Eth.scss";
 const axios = require("axios");
 
 class Eth extends Component {
-  async componentWillMount() {
+  async componentDidMount() {
     await this.getData();
   }
   getData = () => {
