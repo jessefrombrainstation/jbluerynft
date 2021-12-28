@@ -9,6 +9,7 @@ import Nft from "./components/Nft/Nft";
 import Sub from "./components/Sub/Sub";
 import Original from "../src/assets/images/jbluery-ufo-og.png";
 import NFTs from "../src/assets/images/pink-sauce-nft-first-edition.png";
+import ConnectBar from "./components/ConnectBar/ConnectBar";
 import "../src/components/Board/Board.scss";
 
 function App() {
@@ -95,6 +96,7 @@ function App() {
               <></>
             )}
             <Sub />
+            <ConnectBar />
           </>
         )}
       </>

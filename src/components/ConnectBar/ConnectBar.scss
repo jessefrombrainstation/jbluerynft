@@ -1,0 +1,39 @@
+@use "../../styles/partials/_variables.scss" as *;
+@import "../../styles/partials/mixins";
+
+.connect-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 40vw;
+  height: 3vw;
+  margin-left: 58vw;
+  margin-top: 16vw;
+  @include tablet {
+    margin-top: 15.5vw;
+  }
+  @include desktop {
+    margin-top: 15vw;
+  }
+
+  &__discord {
+    height: 3vw;
+    width: 3vw;
+    margin: 0 3vw;
+    opacity: 87%;
+  }
+
+  &__instagram {
+    height: 3vw;
+    width: 3vw;
+    margin: 0 3vw;
+    opacity: 87%;
+  }
+
+  &__twitter {
+    height: 3vw;
+    width: 3vw;
+    margin: 0 3vw;
+    opacity: 87%;
+  }
+}
