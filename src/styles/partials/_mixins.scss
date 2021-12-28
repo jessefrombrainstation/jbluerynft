@@ -1,5 +1,20 @@
 //Responsive Media Queries {
 
+@mixin mobile {
+  @media (min-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+@mixin mobile-b {
+  @media (min-width: $mobile-breakpoint-b) {
+    @content;
+  }
+}
+@mixin mobile-c {
+  @media (min-width: $mobile-breakpoint-c) {
+    @content;
+  }
+}
 @mixin tablet {
   @media (min-width: $tablet-breakpoint) {
     @content;

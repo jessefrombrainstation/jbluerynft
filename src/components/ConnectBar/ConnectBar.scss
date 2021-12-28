@@ -9,11 +9,20 @@
   height: 3vw;
   margin-left: 58vw;
   margin-top: 16vw;
+  @include mobile {
+    margin-top: 14.6vw;
+  }
+  @include mobile-b {
+    margin-top: 15vw;
+  }
+  @include mobile-c {
+    margin-top: 15.475vw;
+  }
   @include tablet {
-    margin-top: 15.5vw;
+    margin-top: 15.675vw;
   }
   @include desktop {
-    margin-top: 15vw;
+    margin-top: 15.755vw;
   }
 
   &__discord {
