@@ -1,5 +1,5 @@
 @use "../../styles/partials/_variables.scss" as *;
-@import "../../styles/partials/mixins";
+@import "../../styles/partials/_mixins.scss";
 
 .connect-container {
   display: flex;
