@@ -35,5 +35,11 @@
     width: 12vw;
     height: 3.5vw;
     font-size: 3vw;
+
+    input,
+    textarea {
+      -webkit-appearance: none;
+      border-radius: 0;
+    }
   }
 }
