@@ -8,37 +8,25 @@
   width: 40vw;
   height: 3vw;
   margin-left: 58vw;
-  @include mobile {
-    margin-top: 14.6vw;
-  }
-  @include mobile-b {
-    margin-top: 15vw;
-  }
-  @include mobile-c {
-    margin-top: 15.475vw;
-  }
-  @include tablet {
-    margin-top: 15.675vw;
-  }
-  @include desktop {
-    margin-top: 15.755vw;
-  }
 
-  &__discord {
+  &__icon {
     height: 3vw;
     width: 3vw;
     margin: 0 3vw;
-  }
-
-  &__instagram {
-    height: 3vw;
-    width: 3vw;
-    margin: 0 3vw;
-  }
-
-  &__twitter {
-    height: 3vw;
-    width: 3vw;
-    margin: 0 3vw;
+    @include mobile {
+      margin-top: 14.6vw;
+    }
+    @include mobile-b {
+      margin-top: 15vw;
+    }
+    @include mobile-c {
+      margin-top: 15.475vw;
+    }
+    @include tablet {
+      margin-top: 15.675vw;
+    }
+    @include desktop {
+      margin-top: 15.755vw;
+    }
   }
 }
