@@ -5,17 +5,17 @@
   display: flex;
   height: 100vw;
   width: 100vw;
-  margin-top: -222vw;
+  margin-top: -425vw;
   align-items: center;
   text-align: center;
   justify-content: center;
   position: absolute;
   z-index: 11;
   @include tablet {
-    margin-top: -221vw;
+    margin-top: -426vw;
   }
   @include desktop {
-    margin-top: -220vw;
+    margin-top: -427vw;
   }
 }
 .nftinner {

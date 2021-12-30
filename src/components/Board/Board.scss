@@ -73,6 +73,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   width: 80vw;
   font-size: 9pt;
   color: white;
@@ -84,6 +85,141 @@
     font-size: 22pt;
     width: 80vw;
   }
+}
+.nft-flightmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 80vw;
+  font-size: 9pt;
+  color: #bad2be;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+  // &__goals {
+  //   margin: 0;
+  //   line-height: 2;
+  // }
+  &__goals1 {
+    margin: 0;
+    line-height: 2;
+    color: #80bb88;
+    text-decoration: line-through #80bb88a5;
+  }
+  &__goals2 {
+    margin: 0;
+    line-height: 2;
+    color: #80bb88;
+    text-decoration: line-through #80bb88a5;
+  }
+  &__goals3 {
+    margin: 0;
+    line-height: 2;
+    color: #80bb88;
+    text-decoration: line-through #80bb88a5;
+  }
+  &__goals4 {
+    margin: 0;
+    line-height: 2;
+    color: #80bb88;
+    text-decoration: line-through #80bb88a5;
+  }
+  &__goals5 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals6 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals7 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals8 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals9 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals10 {
+    margin: 0;
+    line-height: 2;
+  }
+  &__goals11 {
+    margin: 0;
+    line-height: 2;
+  }
+}
+
+.flightmap {
+  width: 70vw;
+}
+
+.nft-missioncontrol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 80vw;
+  font-size: 9pt;
+  color: white;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+  &__status {
+    color: #eb3647;
+  }
+}
+.missioncontrol {
+  width: 70vw;
+  margin-bottom: -6vw;
+}
+.monitor {
+  width: 50vw;
+}
+.nft-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 80vw;
+  font-size: 9pt;
+  color: white;
+  @include tablet {
+    width: 80vw;
+    font-size: 16pt;
+  }
+  @include desktop {
+    font-size: 22pt;
+    width: 80vw;
+  }
+  &__introduction {
+    color: white;
+  }
+}
+.team {
+  width: 50vw;
+}
+.team-portrait {
+  margin-top: 5vw;
+  width: 80vw;
 }
 .nft {
   width: 80vw;

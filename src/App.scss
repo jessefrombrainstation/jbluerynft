@@ -1,6 +1,36 @@
+@use "./styles/partials/variables" as *;
+@import "./styles/partials/_mixins.scss";
+
 .spaceground {
   width: 100%;
   margin-bottom: -15px;
+
+  &__top {
+    width: 100%;
+    margin-bottom: -15px;
+    // border: red solid 5px;
+  }
+  &__bottom {
+    width: 100%;
+    margin-top: 300vw;
+    margin-bottom: -15px;
+    // border: blue solid 4px;
+    @include mobile {
+      margin-top: 450vw;
+    }
+    @include mobile-b {
+      margin-top: 386.5vw;
+    }
+    @include mobile-c {
+      margin-top: 340vw;
+    }
+    @include tablet {
+      margin-top: 320vw;
+    }
+    @include desktop {
+      margin-top: 300vw;
+    }
+  }
 }
 
 .nftcontainer {
@@ -10,8 +40,8 @@
 
 .closebutton {
   width: 100vw;
-  height: 280vw;
-  margin-top: -278.5vw;
+  height: 595vw;
+  margin-top: -595vw;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.421);
   color: none;
