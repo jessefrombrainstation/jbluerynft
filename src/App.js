@@ -12,7 +12,7 @@ import Original from "../src/assets/images/jbluery-ufo-og.png";
 import NFTs from "../src/assets/images/pink-sauce-nft-first-edition.png";
 import flightmap from "../src/assets/images/flightmap.png";
 import missioncontrol from "../src/assets/images/mission-control.png";
-import guimonitor from "../src/assets/images/interface-v2-unreleased.gif";
+import guimonitor from "../src/assets/images/interface-v2-released.gif";
 import team from "../src/assets/images/team.png";
 import teamportrait from "../src/assets/images/team-portrait.png";
 import ConnectBar from "./components/ConnectBar/ConnectBar";
@@ -68,7 +68,7 @@ function App() {
                 <br />
                 Stay tuned for our first edition launch!
                 <br />
-                Just launched! *10/17 2021*
+                Just launched! *12/17 2021*
                 <br />
                 SOLD OUT
               </p>
@@ -94,17 +94,14 @@ function App() {
                   during art basel week
                 </p>
                 <p className="nft-flightmap__goals3">
-                  Release first edition *10/17 2021*
+                  Release first edition *12/17 2021*
                 </p>
                 <p className="nft-flightmap__goals4">
                   Open space bar lounge on discord
                 </p>
-                <p className="nft-flightmap__goals5">
-                  Member exclusive teaser video for next launch
-                </p>
                 <p className="nft-flightmap__goals6">drop merch</p>
                 <p className="nft-flightmap__goals7">
-                  Release second pack *hidden date*
+                  Release second pack *01/11/22*
                 </p>
                 <p className="nft-flightmap__goals8">
                   Release third pack *hidden date*
@@ -126,15 +123,16 @@ function App() {
                   className="missioncontrol"
                   alt="mission-control-pink-sauce-nft"
                 />
-                <img
-                  src={guimonitor}
-                  className="monitor"
-                  alt="mission-control-pink-sauce-nft-status"
-                />
+                <a href="https://opensea.io/collection/pink-sauce">
+                  <img
+                    src={guimonitor}
+                    className="monitor"
+                    alt="mission-control-pink-sauce-nft-status"
+                  />
+                </a>
                 <p className="nft-missioncontrol__status">
-                  It appears the signal is not strong enough yet. please check
-                  back later! <br /> Follow our social media pages to stay
-                  updated.
+                  PACK v2 is now in orbit! LIMITED AVAILABILITY! <br /> Get your
+                  Pink Sauce NFT tokens to gain access to our Space Bar Lounge.
                 </p>
               </p>
               <p className="nft-team">
