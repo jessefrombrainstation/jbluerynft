@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Lounge from "./components/Lounge/Lounge";
+import ScrollToTop from "./components/Fx/ScrollToTop";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
@@ -13,6 +14,7 @@ ReactDOM.render(
     serverUrl="https://trkzv1wsjs3t.usemoralis.com:2053/server"
   >
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/space-bar-lounge" element={<Lounge />} />
