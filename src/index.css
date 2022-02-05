@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.status {
+/* .status {
   display: inline-block;
   background-image: url(assets/images/blue-loader.gif);
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ code {
   visibility: hidden;
   opacity: 0.7;
   transition: visibility 0s 3.1s, opacity 2.9s linear;
-}
+} */
 
 .loader-container {
   background-image: url(assets/images/pink-loaded.gif);
@@ -39,6 +39,5 @@ code {
   position: relative;
   width: 100vw;
   height: 100vw;
-  margin-top: 15vw;
   z-index: 100;
 }

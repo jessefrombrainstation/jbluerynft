@@ -2,16 +2,30 @@
 @import "../../styles/partials/mixins";
 
 .coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  margin-top: -24vw;
+  margin-top: -44vw;
   &__crypto {
     height: 20vw;
+  }
+}
+
+.members-button {
+  text-align: center;
+
+  &__bottom {
+    margin-top: 5vw;
+    width: 30vw;
   }
 }
 
 .sub {
   text-align: center;
   margin-top: -20vw;
+  visibility: hidden;
 
   &__email {
     background-color: rgba(246, 223, 51, 0.38);

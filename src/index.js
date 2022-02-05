@@ -1,14 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Lounge from "./components/Lounge/Lounge";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { MoralisProvider } from "react-moralis";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <MoralisProvider
+    appId="HvJXM1kBE8FsYmf3I007HMj7pPXSfmtyKxbtUUyg"
+    serverUrl="https://trkzv1wsjs3t.usemoralis.com:2053/server"
+  >
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/space-bar-lounge" element={<Lounge />} />
+      </Routes>
+    </Router>
+  </MoralisProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

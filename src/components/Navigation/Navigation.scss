@@ -23,3 +23,33 @@
     height: 270px;
   }
 }
+
+.members-nav__top {
+  width: 18vw;
+  margin-left: 79vw;
+  margin-top: 4.9vw;
+  z-index: 6;
+  position: absolute;
+
+  @include mobile-b {
+    margin-top: 4.6vw;
+  }
+  @include mobile-c {
+    margin-top: 3.95vw;
+  }
+  @include tablet {
+    margin-top: 3vw;
+  }
+  @include nft-mod {
+    margin-top: 2.3vw;
+  }
+  @include nft-mod-b {
+    margin-top: 2.2vw;
+  }
+  @include nft-mod-c {
+    margin-top: 2.1vw;
+  }
+  @include desktop {
+    margin-top: 2vw;
+  }
+}
