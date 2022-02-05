@@ -20,8 +20,7 @@ function Lounge() {
     user,
     isAuthenticating,
   } = useMoralis();
-  const { getNFTBalances, data, error, isLoading, isFetching } =
-    useNFTBalances();
+  const { getNFTBalances, data, error } = useNFTBalances();
 
   const NFTBalances = () => {
     return (
@@ -85,6 +84,7 @@ function Lounge() {
           <img
             src={Toke}
             className="toke"
+            alt="live-token"
             onClick={() =>
               getNFTBalances({
                 params: {
